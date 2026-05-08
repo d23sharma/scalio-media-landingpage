@@ -15967,7 +15967,7 @@ function getResponse() {
 }
 var HEADERS = { TSS_SHELL: "X-TSS_SHELL" };
 async function getStartManifest(matchedRoutes) {
-  const { tsrStartManifest } = await import("./_tanstack-start-manifest_v-BtgM7asd.js");
+  const { tsrStartManifest } = await import("./_tanstack-start-manifest_v-BF4KuDQN.js");
   const startManifest = tsrStartManifest();
   const rootRoute = startManifest.routes[rootRouteId] = startManifest.routes[rootRouteId] || {};
   rootRoute.assets = rootRoute.assets || [];
@@ -16796,8 +16796,8 @@ var baseManifestPromise;
 var cachedFinalManifestPromise;
 async function loadEntries() {
   const [routerEntry, startEntry, pluginAdapters] = await Promise.all([
-    import("./router-CbATpxlU.js"),
-    import("./start-Bkh3BtD_.js"),
+    import("./router-C8qRxfwo.js"),
+    import("./start-C5hL6y0O.js"),
     import("./__23tanstack-start-plugin-adapters-Cwee5PKy.js")
   ]);
   return {
@@ -16825,8 +16825,8 @@ async function resolveManifest(matchedRoutes, transformFn, cache) {
   }
   return computeFinalManifest();
 }
-var ROUTER_BASEPATH = "scalio-landing-page";
-var SERVER_FN_BASE = "/scalio-landing-page/_serverFn/";
+var ROUTER_BASEPATH = "scalio-media-landingpage";
+var SERVER_FN_BASE = "/scalio-media-landingpage/_serverFn/";
 var IS_PRERENDERING = process.env.TSS_PRERENDERING === "true";
 var IS_SHELL_ENV = process.env.TSS_SHELL === "true";
 var ERR_NO_RESPONSE = "Internal Server Error";
